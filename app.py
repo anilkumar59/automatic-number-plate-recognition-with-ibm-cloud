@@ -2,7 +2,7 @@
 """
 Created on Fri May 28 08:20:50 2021
 
-@author: ssc
+@author: anil
 """
 
 
@@ -19,7 +19,7 @@ def check(output):
    
    payload = '''{\r\n   \"image_url\": "'''+output+'''",\r\n   \"sourceType\": \"url\"\r\n}'''
    headers ={
-           'x-rapidapi-key' : "5a77033127msh5968e3ff6ceb54fp1080b0jsn3b667310357d",
+           'x-rapidapi-key' : "cccef35aaemsh0038a4af5a6262ap1a5b21jsn9c49b411f2a6",
         'x-rapidapi-host': "zyanyatech1-license-plate-recognition-v1.p.rapidapi.com"
         }
    response = requests.request("POST",url,headers=headers,params=querystring)
